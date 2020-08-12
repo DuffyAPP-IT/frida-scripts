@@ -2,7 +2,7 @@ if (ObjC.available) {
 
 try {  
 
-var className = "NSURLRequest"; 
+var className = "NSURLSession"; 
 var funcName = "- initWithURL:cachePolicy:timeoutInterval:"; 
 
 var hook = eval('ObjC.classes.' + className + '["' + funcName + '"]');
